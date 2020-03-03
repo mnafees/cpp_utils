@@ -1,5 +1,10 @@
 CXX=g++
 CXXFLAGS=-std=c++17
 
-test:
-	@$(CXX) $(CXXFLAGS) test.cpp -o test
+all: example ;
+
+example: example.cpp is_printable.hpp
+	@$(CXX) $(CXXFLAGS) example.cpp -o example
+
+clean:
+	@rm example

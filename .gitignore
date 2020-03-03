@@ -44,6 +44,3 @@
 .history
 
 # End of https://www.gitignore.io/api/c++,visualstudiocode
-
-test*
-!test.cpp
